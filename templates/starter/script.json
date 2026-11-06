@@ -1,0 +1,22 @@
+[
+  {"scene": "intro", "lines": [
+    {"zh": "这个视频不是拍出来的，是代码一帧一帧画出来的。", "tts": "这个视频不是拍出来的，是代码一帧一帧画出来的。", "en": "This video is not filmed. It is drawn frame by frame by code."},
+    {"zh": "一共三步：写脚本、配音、渲染。", "tts": "一共三步：写脚本，配音，渲[xuàn]染。", "en": "Three steps: write the script, add the voice, render."}
+  ]},
+  {"scene": "script", "lines": [
+    {"zh": "第一步，把要讲的内容拆成一句一句话。", "tts": "第一步，把要讲的内容拆成一句一句话。", "en": "Step one: break the content into one sentence per idea."},
+    {"zh": "每句话配一个动作，画面跟着旁白走。", "tts": "每句话配一个动作，画面跟着旁白走。", "en": "Each line gets one motion, so the picture follows the voice."}
+  ]},
+  {"scene": "voice", "lines": [
+    {"zh": "第二步，把每句话合成配音。", "tts": "第二步，把每句话合成配音。", "en": "Step two: turn each line into audio."},
+    {"zh": "拿到每句话的起止时刻，就得到时间轴。", "tts": "拿到每句话的起止时刻，就得到时间轴。", "en": "The start and end of each line give you the timeline."}
+  ]},
+  {"scene": "render", "lines": [
+    {"zh": "第三步，按时间轴逐帧画，每秒三十张。", "tts": "第三步，按时间轴逐帧画，每秒三十张。", "en": "Step three: draw every frame on that timeline, thirty per second."},
+    {"zh": "两千多张图交给 ffmpeg，就合成一段视频。", "tts": "两千多张图交给编码器，就合成一段视频。", "en": "Send a couple thousand frames to ffmpeg and you have a video."}
+  ]},
+  {"scene": "outro", "lines": [
+    {"zh": "画面不糊，字也不变形，因为都是画出来的。", "tts": "画面不糊，字也不变形，因为都是画出来的。", "en": "Nothing blurs, no text warps, because all of it is drawn."},
+    {"zh": "换题材只改脚本和动画。下个视频见！", "tts": "换题材只改脚本和动画。下个视频见！", "en": "For a new topic you only rewrite the script and the motion."}
+  ]}
+]

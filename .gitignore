@@ -1,0 +1,14 @@
+# 依赖
+node_modules/
+
+# 渲染中间产物
+build/
+
+# 成品（体积大，建议用 release 或网盘分发）
+*.mp4
+*.wav
+*.srt
+
+# Python
+__pycache__/
+*.pyc
